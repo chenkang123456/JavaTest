@@ -1,17 +1,15 @@
-package com.two.dimensional.array;
+package Array;
 
-import java.util.Random;
-
-public class Array {
-    public static void main(String[] args){
-        Random R1=new Random();
-        int num=R1.nextInt(5)+5;
-        int[] arr=new int[num];
-        for(int i=0;i<num;i++){
-            arr[i]=R1.nextInt(10);
+public class Array
+{ public static void main(String[] args){
+    int[] numbers = new int[50];
+    for(int i = 0, j = (numbers[i] == 0?1:numbers[i]); i < 50 && j < 101; j++){
+        if(j % 2 == 1){ numbers[i] = j; i++;
         }
-        for(int s:arr){
-            System.out.print(s+"\t");
-        }
-    }
-}
+    } int count = 0;
+    for(int number: numbers){
+        System.out.print(number + "\t");
+        count++; if(count == 8){
+            System.out.println();
+            count = 0;
+        } } }}
