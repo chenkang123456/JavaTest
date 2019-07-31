@@ -1,5 +1,36 @@
 {
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array02",
+            "request": "launch",
+            "mainClass": "Array02"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array",
+            "request": "launch",
+            "mainClass": "Array"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - text09",
+            "request": "launch",
+            "mainClass": "text09"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - text08",
+            "request": "launch",
+            "mainClass": "text08"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - text02",

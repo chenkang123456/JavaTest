@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
 public class text05{
+    private static Scanner sc;
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.println("请输入数字");
         int num =sc.nextInt();      
         if(num/10>0 && num/10<1){
